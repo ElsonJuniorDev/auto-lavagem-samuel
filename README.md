@@ -1,16 +1,30 @@
-# React + Vite
+# Auto Lavagem Samuel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Landing page desenvolvida para a empresa Auto Lavagem Samuel, especializada em estética automotiva.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#### React
+#### Vite
+#### Tailwind
+#### CSS
+#### JavaScript
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#### Landing page responsiva
+#### Seção de serviços
+#### Depoimentos de clientes
+#### CTA para orçamento
+#### Menu mobile responsivo
+#### Integração com WhatsApp
 
-## Expanding the ESLint configuration
+## Objetivo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Apresentar os serviços da empresa de forma moderna, responsiva e otimizada para conversão.
+
+Desenvolvido por
+
+## Black Mamute
+
+
