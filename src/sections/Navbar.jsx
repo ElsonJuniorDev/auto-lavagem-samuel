@@ -1,12 +1,12 @@
 import {X, Menu } from "lucide-react";
 import { useState } from "react";   
 
+
 const navItems = [
-    {name: "Home", href: "#"},
-    {name: "About", href: "#about"},
-    {name: "Company", href: "#company"},
-    {name: "Services", href: "services"},
-    {name: "Contact", href: "#contact"},
+    {name: "Inicio", href: "#"},
+    {name: "Sobre", href: "#about"},
+    {name: "Servicos", href: "services"},
+    {name: "Contato", href: "#contact"},
 ];
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <nav className="fixed w-full bg-gray-800 top-0 left-0 right-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12
-            lg:px-20 py-3 md:py-4 flex items-center justify-between">
+            lg:px-2 py-3 md:py-4 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center text-xl sm:text-2xl font-bold text-gray-100 flex-shrink-0">                                        
                     <div className="flex items-center justify-center whitespace-nowrap"> 
@@ -26,12 +26,21 @@ const Navbar = () => {
                     </div>          
                  </div>
                 {/*Links*/}
-                <ul className="hidden md:flex items-center gap-6 lg:gap-8 text-gray-100 font-medium">
+                <ul className="
+                hidden 
+                md:flex 
+                items-center 
+                gap-6 lg:gap-8 
+                text-gray-100 
+                font-medium">
                     {navItems.map(({ name, href }) => (
                         <li key={name}>
                             <a
                              href={href}
-                            className="hover:text-yellow-500 cursor-pointer transition-colors ">
+                            className="
+                            hover:text-yellow-500 
+                            cursor-pointer 
+                            transition-colors ">
                         {name}
                             </a>
                         </li>
