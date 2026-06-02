@@ -1,7 +1,7 @@
-import { Award, Car, Circle } from "lucide-react";
+import { Award, Car,} from "lucide-react";
 import hero from "../assets/hero.png";
 import ServiceCard from "../components/ServiceCard";
-
+import { Circulos } from "../components/circulos";
 
 export default function ServicesHero() {
   return (
@@ -56,16 +56,7 @@ export default function ServicesHero() {
               Automotiva.
             </span>
           </h2>
-
-          <div 
-          data-aos="fade-right"
-          data-aos-delay="100"
-          className="flex gap-4 mt-6 justify-center lg:justify-start">
-            <Circle className="w-4 h-4 text-white" />
-            <Circle className="w-4 h-4 text-yellow-500" />
-            <Circle className="w-4 h-4 text-white" />
-          </div>
-
+         
           <p
           data-aos="fade-right"
           data-aos-delay="200"
