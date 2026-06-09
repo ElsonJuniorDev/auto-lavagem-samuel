@@ -60,8 +60,7 @@ const Navbar = () => {
                     hover:bg-gray-600 
                     hover:text-yellow-500
                     transition-colors
-                    flex-shrink-0"
-                    >
+                    flex-shrink-0"                    >
                    
                     <span className="hidden lg:inline">
                     Peça já seu orçamento

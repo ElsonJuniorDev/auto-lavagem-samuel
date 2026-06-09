@@ -10,7 +10,7 @@ export default function ServiceCard({
       className="
       bg-white
       w-[320px]
-      min-h-[220px]
+      min-h-[290px]
       rounded-3xl
       p-6
       shadow-2xl
@@ -18,29 +18,31 @@ export default function ServiceCard({
       duration-300
       hover:-translate-y-2
       "
-    >
-      <div
-        className="
-        w-12
-        h-12
-        rounded-xl
-        bg-yellow-100
-        flex
-        items-center
-        justify-center
-        mb-5
-        "
-      >
+    >  
+
+        <div
+         className="
+           w-12
+           h-12
+           rounded-xl
+           bg-yellow-100
+           flex
+           items-center
+           justify-center
+           mb-2
+          "
+          >
         {icon}
-      </div>
+        </div>
 
-      <h3 className="text-xl font-semibold text-gray-900">
+        <h3 className="text-xl font-semibold text-gray-900">
         {title}
-      </h3>
+        </h3>
 
-      <p className="mt-3 text-gray-600 leading-relaxed">
+        <p className="mt-2 text-gray-600 leading-relaxed">
         {description}
       </p>
+      
     </div>
   );
 }

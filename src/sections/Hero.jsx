@@ -1,7 +1,7 @@
 import { Award, Car,} from "lucide-react";
 import hero from "../assets/hero.png";
 import ServiceCard from "../components/ServiceCard";
-import { Circulos } from "../components/circulos";
+import Circulos from "../components/Circulos";
 
 export default function ServicesHero() {
   return (
@@ -74,7 +74,7 @@ export default function ServicesHero() {
             Realçamos o brilho, protegemos a pintura e cuidamos
             de cada detalhe do seu veículo com excelência.
           </p>
-
+            <Circulos/> 
           {/* MOBILE */}
           <div className="lg:hidden mt-10 flex flex-col gap-6 items-center">
             <ServiceCard
